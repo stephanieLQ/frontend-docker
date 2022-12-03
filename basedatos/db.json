@@ -1,0 +1,51 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "correo": "Ana@yopmail.com",
+      "nombre": "Ana Apaza",
+      "direccion": "bbbb",
+      "telefono": "123456",
+      "edad": 30
+    },
+    {
+      "id": 2,
+      "correo": "Rene@yopmail.com",
+      "nombre": "Rene Cuellar",
+      "direccion": "aaaaa",
+      "telefono": "123456",
+      "edad": 35
+    },
+    {
+      "id": 3,
+      "correo": "pepe.mail@yopmail.com",
+      "nombre": "jose perez",
+      "direccion": null,
+      "telefono": null,
+      "edad": null
+    }
+  ],
+  "tareas": [
+    {
+      "id": 1,
+      "descripcion": "Añadir",
+      "fecha": "2022-10-23",
+      "prioridad": "alta",
+      "fk_usuario": 1
+    },
+    {
+      "id": 2,
+      "descripcion": "Listar",
+      "fecha": "2022-10-24",
+      "prioridad": "media",
+      "fk_usuario": 1
+    },
+    {
+      "id": 3,
+      "descripcion": "Editar",
+      "fecha": "2022-10-25",
+      "prioridad": "baja",
+      "fk_usuario": 1
+    }
+  ]
+}
